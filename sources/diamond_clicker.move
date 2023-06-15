@@ -15,10 +15,6 @@ module diamond_clicker::game {
     const ERROR_UPGRADE_DOES_NOT_EXIST: u64 = 1;
     const ERROR_NOT_ENOUGH_DIAMONDS_TO_UPGRADE: u64 = 2;
 
-    /*
-    Const
-    DO NOT EDIT
-    */
     const POWERUP_NAMES: vector<vector<u8>> = vector[b"Bruh", b"Aptomingos", b"Aptos Monkeys"];
     // cost, dpm (diamonds per minute)
     const POWERUP_VALUES: vector<vector<u64>> = vector[
